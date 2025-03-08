@@ -58,7 +58,7 @@ const Navbar = () => {
         <a href="/blog"><li className="navbar-item">Blog</li></a>
         <li className="navbar-item">Contact Us</li>
       </ul>
-
+                   
       {/* Mobile Menu */}
       <div className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
         <ul className="mobile-links">
