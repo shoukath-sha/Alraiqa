@@ -1,0 +1,49 @@
+.home-container {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the screen */
+  height: 100%; /* Full height of the screen */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  z-index: -1; /* Place behind the content */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Place above the video */
+  text-align: center;
+  color: white;
+  padding-top: 140px; /* Adjust for the navbar height */
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.content h2 {
+  font-size: 24px;
+}
+
+.learn-more-btn {
+  background-color: white;
+  color: #333;
+  border: none;
+  padding: 12px 32px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.learn-more-btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}

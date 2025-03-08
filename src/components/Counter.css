@@ -1,0 +1,61 @@
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: px;
+    margin: 50px 5;
+   
+  }
+  
+  .stat-card {
+    flex: 1;
+    height: 450px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateY(50px); /* Start slightly below */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    opacity: 0; /* Initially hidden */
+  }
+  
+  .stat-card.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move to original position */
+  }
+  .stat-content {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Add a slight overlay */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .stat-number {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .stat-text {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .stat-number {
+        font-size: 2rem; 
+    }
+
+    .stat-text {
+        font-size: 1rem; 
+    }
+    .stat-card {
+      height: 250px;
+      width: auto;
+    }
+}
