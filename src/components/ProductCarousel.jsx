@@ -1383,6 +1383,8 @@
 // export default ProductCarousel;
 
 
+// latest carousel
+
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import d1 from '../assets/d1.jpg'
