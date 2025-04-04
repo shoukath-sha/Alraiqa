@@ -6,7 +6,7 @@ import defaultBg from "../assets/Brand.png";
 
 
 
-const MainBanner = ({backgroundImage,heading,title,}) => {
+const MainBanner = ({backgroundImage,heading,title,textColor='white'}) => {
   const styles = {
     container: {
       position: "relative",
@@ -18,7 +18,7 @@ const MainBanner = ({backgroundImage,heading,title,}) => {
       display: "flex",
       alignItems: "center",
       padding: "2rem",
-      color: "white",
+      
     },
     overlay: {
       position: "absolute",
@@ -38,13 +38,17 @@ const MainBanner = ({backgroundImage,heading,title,}) => {
       fontWeight: "bold",
       marginTop: "25rem",
       fontFamily: "serif",
+      color: textColor,
+      
       
     },
     paragraph: {
       fontSize: "1rem",
       lineHeight: "1.5",
       fontWeight: "300",
+      color: textColor,
       // marginTop: "14rem",
+      
     },
     
   };

@@ -373,12 +373,18 @@
 // export default About;
 
 import React from 'react';
-import ab from '../assets/about.jpg';
+import ab from '../assets/aab.jpg';
+import ab1 from '../assets/aab1.jpg';
+import ab2 from '../assets/aab2.jpg';
+import ab3 from '../assets/aab3.jpg';
+import ab4 from '../assets/aab4.jpg';
+
 import TraditionalBanner from '../components/TraditionalBanner';
 import bg2 from '../assets/bg2.png'
-import foodg1 from "../assets/foodg1.png";
-import foodg2 from "../assets/foodg2.png";
-import foodg3 from "../assets/foodg3.png";
+import foodg1 from "../assets/aboo1.jpg";
+import foodg2 from "../assets/aboo2.jpg";
+import foodg3 from "../assets/aboo3.jpg";
+import foodg4 from "../assets/aboo4.jpg";
 import FoodGallery from '../components/FoodGaller';
 
 
@@ -387,7 +393,7 @@ const Timeline = () => {
         { src: foodg1, alt: "Food image 1" },
         { src: foodg2, alt: "Food image 2" },
         { src: foodg3, alt: "Food image 3" },
-        { src: foodg1, alt: "Food image 4" }
+        { src: foodg4, alt: "Food image 4" }
       ];
   const timelineData = [
     {
@@ -399,7 +405,7 @@ const Timeline = () => {
         "Developed sustainable farming practices focused on quality",
         "Created the first range of premium date products"
       ],
-      image: ab
+      image: ab1
     },
     {
       period: "2018-2020",
@@ -410,7 +416,7 @@ const Timeline = () => {
         "Introduced organic certification for all our date farms",
         "Launched our signature gift packaging for special occasions"
       ],
-      image: ab
+      image: ab2
     },
     {
       period: "2020-2022",
@@ -421,7 +427,7 @@ const Timeline = () => {
         "Reduced water consumption by 40% through innovative irrigation",
         "Established community support programs in farming regions"
       ],
-      image: ab
+      image: ab3
     },
     {
       period: "2023-Present",
@@ -432,7 +438,7 @@ const Timeline = () => {
         "Expanded product line to include date-based gourmet items",
         "Launched direct-to-consumer online platform reaching 30+ countries"
       ],
-      image: ab
+      image: ab4
     }
   ];
 

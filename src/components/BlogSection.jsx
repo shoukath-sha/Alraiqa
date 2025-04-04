@@ -4,14 +4,16 @@ import blog1 from "../assets/blog1.png";
 import blog2 from "../assets/blog2.png";
 import blog3 from "../assets/blog3.png";
 import FoodGallery from "./FoodGaller";
-import foodg1 from "../assets/foodg1.png";
-import foodg2 from "../assets/foodg2.png";
-import foodg3 from "../assets/foodg3.png";
+import foodg1 from "../assets/aboo7.jpg";
+import foodg2 from "../assets/aboo9.jpg";
+import foodg3 from "../assets/aboo8.jpg";
+import foodg4 from "../assets/aboo10.jpg";
+import FAQSection from "./FAQSection";
   const homeImages = [
     { src: foodg1, alt: "Food image 1" },
     { src: foodg2, alt: "Food image 2" },
     { src: foodg3, alt: "Food image 3" },
-    { src: foodg1, alt: "Food image 4" }
+    { src: foodg4, alt: "Food image 4" }
   ];
 const initialBlogs = [
   {
@@ -91,8 +93,11 @@ const BlogSection = () => {
         </button>
       )}
     </section>
+
+    <FAQSection/>
     
     <FoodGallery Imaging={homeImages}/>
+    
     </>
   );
 };

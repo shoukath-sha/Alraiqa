@@ -11,11 +11,15 @@ import { Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import BlogSection from './components/BlogSection';
 import NewBrand from './pages/NewBrand';
+import ContactUs from './pages/ContactUs';
+import { ToastContainer } from "react-toastify";
+
 
 
 const App = () => {
   return (
     <>
+    <ToastContainer />
       <Navbar/>
       <Routes>
       
@@ -24,6 +28,7 @@ const App = () => {
 <Route path='/brands' element={<Brands/>}/>
 <Route path='/blog' element={<BlogSection/>}/>
 <Route path='/products' element={<NewBrand/>}/>
+<Route path='/contact' element={<ContactUs/>}/>
 
 
 

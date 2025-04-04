@@ -1391,6 +1391,7 @@ import d1 from '../assets/d1.jpg'
 import d2 from '../assets/d2.jpg'
 import d3 from '../assets/d3.jpg'
 import s1 from '../assets/s1.jpg'
+import N1 from '../assets/daten1.jpg'
 
 const ProductCarousel = ({heading}) => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -1407,26 +1408,26 @@ const ProductCarousel = ({heading}) => {
   const trackRef = useRef(null);
   const autoPlayRef = useRef(null);
 
-  const categories = ['All', 'DATES', 'STUFFED DATES', 'DATE SYRUPS'];
+  const categories = ['All', 'DATES', 'STUFFED DATES',];
   
   const products = [
     // DATES with placeholder images
     {
       id: 4,
       name: 'Ajwa Dates',
-      image: '/api/placeholder/400/300?text=Ajwa+Dates',
+      image: N1,
       category: 'DATES'
     },
     {
       id: 5,
-      name: 'Medjool Dates',
-      image: '/api/placeholder/400/300?text=Medjool+Dates',
+      name: 'Majdool -jumbo',
+      image: 'https://alraiqa.me/app/adminbkend/product_image/230pr.jpg',
       category: 'DATES'
     },
     {
       id: 6,
-      name: 'Safawi Dates',
-      image: '/api/placeholder/400/300?text=Safawi+Dates',
+      name: 'Sukkari Galaxy',
+      image: 'https://alraiqa.me/app/adminbkend/product_image/225pr.jpg',
       category: 'DATES'
     },
     // STUFFED DATES with placeholder images
