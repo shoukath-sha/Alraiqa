@@ -1,0 +1,35 @@
+.get-in-touch {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('../assets/about.jpg') no-repeat center center/cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .content {
+    color: white;
+    max-width: 400px;
+  }
+  
+  .content h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
